@@ -5,6 +5,7 @@ import TransactionTable from "./components/TransactionTable";
 import SummaryCards from "./components/Dashboard/SummaryCards";
 import Charts from "./components/Dashboard/Charts";
 import RoleSwitcher from "./components/UI/RoleSwitcher";
+import AddTransaction from "./components/Transactions/AddTransaction";
 
 function App() {
   const setTransactions = useStore((state) => state.setTransactions);
@@ -24,6 +25,7 @@ function App() {
 
       <SummaryCards />
       <Charts />
+      <AddTransaction />
       <TransactionTable />
     </div>
   );
