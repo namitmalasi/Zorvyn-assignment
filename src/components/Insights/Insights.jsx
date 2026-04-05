@@ -32,7 +32,9 @@ const Insights = () => {
             </span>
           </div>
           <p className="text-slate-200 text-lg font-semibold ml-8">
-            {highestCategory?.[0] || "N/A"}
+            {highestCategory
+              ? `${highestCategory[0]} - ₹${highestCategory[1]}`
+              : "N/A"}
           </p>
         </div>
       </div>
