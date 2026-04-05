@@ -6,6 +6,7 @@ import SummaryCards from "./components/Dashboard/SummaryCards";
 import Charts from "./components/Dashboard/Charts";
 import RoleSwitcher from "./components/UI/RoleSwitcher";
 import AddTransaction from "./components/Transactions/AddTransaction";
+import Insights from "./components/Insights/Insights";
 
 function App() {
   const setTransactions = useStore((state) => state.setTransactions);
@@ -25,6 +26,7 @@ function App() {
 
       <SummaryCards />
       <Charts />
+      <Insights />
       <AddTransaction />
       <TransactionTable />
     </div>
