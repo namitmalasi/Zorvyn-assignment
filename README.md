@@ -11,14 +11,18 @@
 
 ## Tech Stack
 
-React.js
-Zustand
-Tailwind CSS
-Recharts
+- React.js
+- Zustand
+- Tailwind CSS
+- Recharts
 
 ## Setup
 
-git clone https://github.com/namitmalasi/Zorvyn-assignment.git
-cd finance-dashboard
-npm install
-npm run dev
+- git clone https://github.com/namitmalasi/Zorvyn-assignment.git
+- cd finance-dashboard
+- npm install
+- npm run dev
+
+## Links
+
+- Live : [Finance Dashboard](https://zorvyn-dashboard-finance.netlify.app/)
