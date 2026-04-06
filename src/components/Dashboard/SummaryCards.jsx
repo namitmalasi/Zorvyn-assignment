@@ -4,7 +4,6 @@ import Card from "../UI/Card";
 const SummaryCards = () => {
   const transactions = useStore((state) => state.transactions);
 
-  // 💡 Derived state
   const income = transactions
     .filter((t) => t.type === "income")
     .reduce((acc, t) => acc + t.amount, 0);

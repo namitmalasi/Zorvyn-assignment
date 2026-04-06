@@ -3,7 +3,6 @@ import { useStore } from "../../store/useStore";
 const Insights = () => {
   const transactions = useStore((state) => state.transactions);
 
-  // 🔹 Highest spending category
   const categoryMap = {};
 
   transactions.forEach((t) => {
